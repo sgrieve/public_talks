@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Lasers, Landslides and... Bendy Bananas</title>
+
+		<meta name="description" content="Lasers, Landslides and... Bendy Bananas">
+		<meta name="author" content="Stuart Grieve">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/night.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+<section data-markdown>
+<textarea data-template>
+
+## Lasers, Landslides
+## <font color="yellow"> and Bendy Bananas?!</font> <!-- .element: class="fragment" data-fragment-index="1" -->
+<br><br>
+Stuart Grieve, TC Hales, Simon Mudd, Fiona Clubb and Robert Parker
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Hurricanes Frances and Ivan
+<div>
+
+<div id="rightcolumn_eq">
+
+![Frances](img/IVAN_TRACK.JPG)
+
+</div>
+
+<div id="leftcolumn_eq">
+
+![Frances](img/FRANCES_TRACK.JPG)
+
+</div>
+
+</div>
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Peeks Creek (2004)
+
+![NCGS and NOAA](img/peeks_1.png) <!-- .element width="100%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Peeks Creek (2004)
+
+![NCGS and NOAA](img/DEBRIS2_MINE.JPG) <!-- .element width="70%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Peeks Creek (2004)
+
+![NCGS and NOAA](img/TREE_HOUSE_DEBRIS.JPG) <!-- .element width="70%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Peeks Creek (2004)
+
+![https://www.weather.gov/gsp/PeeksCreek](img/WIDE_POINT.JPG) <!-- .element width="70%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Far from a one-off
+
+<iframe src="https://www.youtube.com/embed/YONqInZmCqE?rel=0" data-autoplay class="stretch"></iframe>
+
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+## We need to understand:
+
+- Dynamics of hillslope sediment transport
+- Where these landslides occur
+- What triggers landslides
+- How we can predict them
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Colluvial hollows
+
+- In upland, humid landscapes we know that the majority of landslides initiate in **colluvial hollows**
+- But these features are difficult to map
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Theory
+
+![hollow cartoon](img/cartoon.png) <!-- .element width="100%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Theory
+
+<!-- 10.1038/nature08174 -->
+<video width="700" controls="controls">
+<source src="img/perron.mp4" type="video/mp4">
+</video>
+
+- Theory predicts uniform morphology
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Reality
+
+![Photo from 2013 field campaign](img/hollow_photo.jpg) <!-- .element width="70%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Colluvial hollows
+
+No systematic study of more than a handful
+
+![map of hollows](img/hollow_map.png) <!-- .element width="50%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+## Two Questions:
+
+### 1. Can we identify hollows from topographic data? <!-- .element: class="fragment" data-fragment-index="1" -->
+
+<br><br>
+
+### 2. How accurate are our models? <!-- .element: class="fragment" data-fragment-index="2" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Coweeta, NC
+
+![Coweeta](img/coweeta.png) <!-- .element width="80%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Coweeta, NC
+
+- Long-Term Ecological Research site covering $50~km^2$
+- Daily rain gauge data going back to the 1930s
+- Persistent soil mantle through much of the Quaternary
+- Type location for colluvial hollows
+- High resolution LiDAR data available
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Digital deforestation
+
+![raw](img/raw.png) <!-- .element width="60%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Digital deforestation
+
+![bare earth](img/be.png) <!-- .element width="60%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Extracting hollows from topography
+
+<div>
+
+<div id="rightcolumn">
+
+![hollow cartoon](img/cartoon_crop.png) <!--.element class="plain"-->
+
+</div>
+
+<div id="leftcolumn">
+<br>
+<ol>
+<li>Digitally remove forests</li>
+<br>
+<li>Identify channel initiation point</li>
+<br>
+<li>Identify upstream contributing area</li>
+</ol>
+
+</div>
+
+</div>
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+![https://www.nature.com/articles/336232a0](img/chans_begin.png) <!-- .element width="100%" -->
+
+</textarea>
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/sa_axes.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/schematic.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/schematic_arrow.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/50_boom_slope_area_plot_raw.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/50_boom_slope_area_plot.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/259_boom_slope_area_plot_raw.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/259_boom_slope_area_plot.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/342_boom_slope_area_plot_raw.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/342_boom_slope_area_plot.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/426_boom_slope_area_plot_raw.png" alt="SA">
+</section>
+
+<section data-transition="none">
+  <h3>Slope-area plots</h3>
+  <img class="plain" width="650" data-src="img/426_boom_slope_area_plot.png" alt="SA">
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### $\chi$-analysis
+
+A coordinate transformation which allows us to represent river long profiles as stright lines, normalising by drainage area
+
+![10.1002/esp.3302](img/profile_example.png) <!-- .element width="80%" class="plain" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### $\chi$-analysis
+
+![Clubb 2014](img/dreich.png) <!-- .element width="75%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Extracting hollows
+
+![hollow map](img/map.png) <!-- .element width="90%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Extracting hollows
+
+![hollow shapes](img/concavity.png) <!-- .element width="64%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Measuring hollows
+
+![hists](img/hists.png) <!-- .element width="77%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### How can we compare shapes quantitatively?
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### The shapes of things are very important to some people
+
+<iframe src="https://www.youtube.com/embed/MrGMTdsj_tk?rel=0" data-autoplay class="stretch"></iframe>
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### The shapes of things are very important to some people
+
+![https://www.forbes.com/sites/timworstall/2017/02/05/its-straight-bananas-that-made-me-support-brexit-too/](img/forbes_moron.png) <!-- .element width="80%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+![eu legislation](img/EU_banana.png) <!-- .element width="80%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### But how does the EU measure our fruit?
+
+![https://doi.org/10.1016/j.postharvbio.2009.05.001](img/orange.jpg) <!-- .element width="40%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### But how does the EU measure our fruit?
+
+![10.1007/s11947-011-0556-0](img/costa_2011.gif) <!-- .element width="80%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### But how does the EU measure our fruit?
+
+![10.1016/j.compag.2011.10.016](img/grain.jpg) <!-- .element width="50%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### But how does the EU measure our fruit?
+
+![10.1016/j.compag.2010.10.006](img/random_fruit.jpg) <!-- .element width="60%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Elliptical Fourier Analysis
+
+<div>
+
+<div id="rightcolumn">
+
+![harmonic fitting](img/hollow_ani.gif)
+
+</div>
+
+<div id="leftcolumn">
+
+<ul>
+<li>Decompose a polygon as a series of ellipses (harmonics)</li>
+<li>Shapes are normalised with respect to area, rotation and point spacing</li>
+<li>Allows quantitative comparisons of hollows from across a landscape</li>
+</ul>
+
+</div>
+
+</div>
+</textarea>
+</section>
+
+<section>
+  <h3>Elliptical Fourier Analysis</h3>
+  <div align="center" data-svg-fragment-big="img/full-eqn.svg#[*|label=a]">
+      <a class="fragment" title="[*|label=b]"></a>
+      <a class="fragment" title="[*|label=c]"></a>
+      <a class="fragment" title="[*|label=d]"></a>
+      <a class="fragment" title="[*|label=e]"></a>
+      <a class="fragment" title="[*|label=f]"></a>
+      <a class="fragment" title="[*|label=g]"></a>
+      <a class="fragment" title="[*|label=h]"></a>
+  </div>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Elliptical Fourier Analysis
+
+![slope and area shape](img/shape.png) <!-- .element width="58%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Elliptical Fourier Analysis
+
+![aspect shape](img/aspect.png) <!-- .element width="100%" -->
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Our data shows that the theory is wrong!
+
+![theory](img/video_ss.png) <!-- .element: style="float: right; width: 45%" -->
+
+![reality](img/concavity.png) <!-- .element: style="width: 45%" -->
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### The theory is wrong?
+
+Hollows are transitional landforms between hillslopes and channels:
+
+#### Channel Erosion: $E = K_{f}A^{m}S^{n}$
+
+#### Hillslope Erosion: $E = K_{h}S\frac{\rho_s}{\rho_r}$
+
+In hollows, these two forces should be approximately equal, yielding uniform hollows
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### The theory is wrong?
+
+What processes are missing from our understanding?
+
+- Subsurface morphology
+- The role of biota, especially vegetation
+- Stochastic landsliding <!-- .element: class="fragment highlight-red" data-fragment-index="1" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+## Models of slope stability make implicit or explicit assumptions about the uniformity of hollows
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Modelling hollow soil depth
+
+<div>
+
+<div id="leftcolumn">
+
+![https://www.nature.com/articles/srep34438/figures/2](img/rob_figure.jpg)
+
+</div>
+
+<div id="rightcolumn">
+
+The limiting factor on landslide hazard in hollows is the rate of soil production, not the intensity of storms!
+
+
+</div>
+
+</div>
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Future steps
+
+Introduce more complex hydrology and more spatial variability to model hollows...
+
+![In prep model](img/ani.gif) <!-- .element width="100%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+## Summary
+
+- Understanding small scale hillslope morphology is vital to understanding landsliding
+- The next generation of landslide models need to consider source area morphology
+- I wasn't wasting my time reading about how to measure the shape of fruit...  <!-- .element: class="fragment" data-fragment-index="1" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Thank You!
+
+<div>
+
+![me](img/soil_pit.jpg) <!-- .element width="80%" -->
+
+</textarea>
+</section>
+
+			</div>
+
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+        // Parallax background image
+        parallaxBackgroundImage: "img/bg4.jpg", //https://unsplash.com/photos/OYFHT4X5isg
+
+      	// Parallax background size
+      	parallaxBackgroundSize: "4200px 1800px",
+
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        math: {
+		           mathjax: 'reveal/plugin/MathJax/MathJax.js',
+		           config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+	            },
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/search/search.js', async: true },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+          { src: 'reveal/plugin/math/math.js', async: true },
+          { src: 'reveal/plugin/reveal-svg-fragment.js', condition: function() { return !!document.querySelector( '[data-svg-fragment]' ); } },
+          { src: 'reveal/plugin/reveal-svg-fragment-big.js', condition: function() { return !!document.querySelector( '[data-svg-fragment-big]' ); } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
